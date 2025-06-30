@@ -1,1 +1,0 @@
-web: chainlit run ai.py --port $PORT
