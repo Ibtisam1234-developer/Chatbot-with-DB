@@ -3,9 +3,9 @@ from supabase import create_client, Client
 from openai import OpenAI
 from datetime import datetime
 
-SUPABASE_URL = st.secrets["SUPABASE_URL"]
-SUPABASE_KEY = st.secrets["SUPABASE_KEY"]
-GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
+SUPABASE_URL = "https://bzcrwohnbzvcysujznfi.supabase.co"
+SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ6Y3J3b2huYnp2Y3lzdWp6bmZpIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTEzMDM0MTMsImV4cCI6MjA2Njg3OTQxM30.K2i0JCusci2k6bTt_ivh7qI71erlDiYam7ZDMU_bqXI"
+GEMINI_API_KEY = "AIzaSyCNxpgOwLzhaynmX-ylfFz9j-6knNv28G4"
 
 # Setup Supabase client
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
